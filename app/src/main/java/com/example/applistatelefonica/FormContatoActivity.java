@@ -53,6 +53,8 @@ public class FormContatoActivity extends AppCompatActivity {
         this.contato = new Contato();
 
         if (this.acao.equals("editar")) {
+            setTitle(this.getResources().getString(R.string.editarContato));
+
             int idContato = getIntent().getIntExtra("idContato", 0);
             this.contato.getById(this, idContato);
             String[] operadoras = this.getResources().getStringArray(R.array.operadoras);
@@ -64,6 +66,7 @@ public class FormContatoActivity extends AppCompatActivity {
                     contato.getEmail()
             );
         } else {
+            setTitle(this.getResources().getString(R.string.novoContato));
             this.setDadosFormulario("", 0, "", "");
         }
     }

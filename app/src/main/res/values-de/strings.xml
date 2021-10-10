@@ -10,23 +10,24 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
-    <string name="tituloContato">Contacts</string>
+    <string name="tituloContato">Kontakt</string>
 
-    <string name="novoContato">New contact</string>
-    <string name="editarContato">Edit contact</string>
+    <string name="novoContato">Neuer Kontakt</string>
+    <string name="editarContato">Kontakt bearbeiten</string>
 
-    <string name="nomeContato">Contact name</string>
-    <string name="telefoneContato">Contact phone</string>
-    <string name="emailContato">Contact email</string>
+
+    <string name="nomeContato">Kontaktname</string>
+    <string name="telefoneContato">Telefonkontakt</string>
+    <string name="emailContato">Kontakt E-mail</string>
 
     <string-array name="operadoras">
-        <item>(Select an operator)</item>
+        <item>(Wählen Sie einen Betreiber)</item>
         <item>Claro</item>
         <item>Oi</item>
         <item>Tim</item>
         <item>Vivo</item>
     </string-array>
 
-    <string name="btnSalvarContato">Salve</string>
+    <string name="btnSalvarContato">Speichern</string>
 
 </resources>
