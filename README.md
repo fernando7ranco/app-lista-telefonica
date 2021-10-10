@@ -1,6 +1,6 @@
 ## AppListaTelefonica
 
-### aplicativo Android com os seguintes :
+### Aplicativo Android com as seguintes funcionalidades:
 
 - Persistência de dados com SQLite
 
